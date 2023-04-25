@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://184.168.108.222:3306/profilebaba
+    username: profilebaba
+    password: profilebaba@123
+    hikari:
+      maximum-pool-size: 20
+      idle-timeout: 300000
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect

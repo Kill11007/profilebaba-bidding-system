@@ -1,0 +1,51 @@
+spring:
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE}
+
+server:
+  port: 5000
+#logging:
+#  level:
+#    org:
+#      hibernate:
+#        SQL: DEBUG
+#        type:
+#          descriptor:
+#            sql:
+#              BasicBinder: TRACE
+
+google:
+  url: https://www.google.com/search
+
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        format_sql=true: true
+
+locations:
+  all: false
+
+categories:
+  all: true
+
+
+request:
+  total-records: 500
+
+
+fixedDelay:
+  in:
+    milliseconds: 6000
+
+
+app:
+  scheduling:
+    enable: false
+
+profile-baba:
+  host: https://testing.profilebaba.com/api
+  save-vendor: /save-vendor
+  get-category-list: /category-list
+
+query:
+  prepositions: above,across,after,against,around,at,before,behind,below,beneath,beside,between,beyond,by,during,except,for,from,in,inside,into,near,of,off,on,onto,out,outside,over,past,through,to,toward,under,until,up,upon,with,within,without
